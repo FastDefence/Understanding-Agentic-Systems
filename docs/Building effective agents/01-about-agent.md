@@ -108,6 +108,10 @@ Agent
 
 Agentic Systemを使えば常に良いというわけではない。
 
+単一のLLM Callで不足したからといって、すぐにWorkflowやAgentへ進む必要はない。
+
+Retrievalやin-context examplesによって単一のLLM Callを改善するだけで十分な場合も多い。
+
 Agentは、
 
 ```text
